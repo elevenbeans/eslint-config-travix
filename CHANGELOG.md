@@ -1,26 +1,41 @@
 # Change Log
 
+## [v3.0.0](https://github.com/Travix-International/eslint-config-travix/tree/v3.0.0) (2017-08-10)
+[Full Changelog](https://github.com/Travix-International/eslint-config-travix/compare/v2.3.2...v3.0.0)
+
+**Closed issues:**
+
+- An in-range update of eslint-plugin-import is breaking the build 🚨 [\#14](https://github.com/Travix-International/eslint-config-travix/issues/14)
+
+**Merged pull requests:**
+
+- chore\(package\): update eslint-plugin-import to version 2.7.0 [\#17](https://github.com/Travix-International/eslint-config-travix/pull/17) ([jackTheRipper](https://github.com/jackTheRipper))
+- add rules for promises [\#16](https://github.com/Travix-International/eslint-config-travix/pull/16) ([jackTheRipper](https://github.com/jackTheRipper))
+- Update eslint to the latest version 🚀 [\#15](https://github.com/Travix-International/eslint-config-travix/pull/15) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Update eslint-plugin-react to the latest version 🚀 [\#13](https://github.com/Travix-International/eslint-config-travix/pull/13) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Update ava to the latest version 🚀 [\#12](https://github.com/Travix-International/eslint-config-travix/pull/12) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+
 ## [v2.3.2](https://github.com/Travix-International/eslint-config-travix/tree/v2.3.2) (2017-02-06)
 [Full Changelog](https://github.com/Travix-International/eslint-config-travix/compare/v2.3.1...v2.3.2)
 
 **Merged pull requests:**
 
-- Update temp-write to the latest version 🚀 [\#11](https://github.com/Travix-International/eslint-config-travix/pull/11) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
-- Update eslint-config-airbnb-base to the latest version 🚀 [\#10](https://github.com/Travix-International/eslint-config-travix/pull/10) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Update temp-write to the latest version 🚀 [\#11](https://github.com/Travix-International/eslint-config-travix/pull/11) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Update eslint-config-airbnb-base to the latest version 🚀 [\#10](https://github.com/Travix-International/eslint-config-travix/pull/10) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 
 ## [v2.3.1](https://github.com/Travix-International/eslint-config-travix/tree/v2.3.1) (2016-11-22)
 [Full Changelog](https://github.com/Travix-International/eslint-config-travix/compare/v2.3.0...v2.3.1)
 
 **Merged pull requests:**
 
-- Update eslint-plugin-babel to the latest version 🚀 [\#9](https://github.com/Travix-International/eslint-config-travix/pull/9) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Update eslint-plugin-babel to the latest version 🚀 [\#9](https://github.com/Travix-International/eslint-config-travix/pull/9) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 
 ## [v2.3.0](https://github.com/Travix-International/eslint-config-travix/tree/v2.3.0) (2016-11-15)
 [Full Changelog](https://github.com/Travix-International/eslint-config-travix/compare/v2.2.0...v2.3.0)
 
 **Merged pull requests:**
 
-- Update dependencies to enable Greenkeeper 🌴 [\#6](https://github.com/Travix-International/eslint-config-travix/pull/6) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+- Update dependencies to enable Greenkeeper 🌴 [\#6](https://github.com/Travix-International/eslint-config-travix/pull/6) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 
 ## [v2.2.0](https://github.com/Travix-International/eslint-config-travix/tree/v2.2.0) (2016-11-04)
 [Full Changelog](https://github.com/Travix-International/eslint-config-travix/compare/v2.1.0...v2.2.0)
