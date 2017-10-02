@@ -1,5 +1,14 @@
 # Change Log
 
+## [v3.0.1](https://github.com/Travix-International/eslint-config-travix/tree/v3.0.1) (2017-10-02)
+[Full Changelog](https://github.com/Travix-International/eslint-config-travix/compare/v3.0.0...v3.0.1)
+
+**Merged pull requests:**
+
+- Disable linebreak-style rule [\#22](https://github.com/Travix-International/eslint-config-travix/pull/22) ([discosultan](https://github.com/discosultan))
+- Update ava to the latest version 🚀 [\#19](https://github.com/Travix-International/eslint-config-travix/pull/19) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Changelogs [\#18](https://github.com/Travix-International/eslint-config-travix/pull/18) ([jackTheRipper](https://github.com/jackTheRipper))
+
 ## [v3.0.0](https://github.com/Travix-International/eslint-config-travix/tree/v3.0.0) (2017-08-10)
 [Full Changelog](https://github.com/Travix-International/eslint-config-travix/compare/v2.3.2...v3.0.0)
 
