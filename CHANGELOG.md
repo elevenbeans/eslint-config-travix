@@ -1,5 +1,12 @@
 # Change Log
 
+## [v4.0.0](https://github.com/Travix-International/eslint-config-travix/tree/v4.0.0) (2017-12-18)
+[Full Changelog](https://github.com/Travix-International/eslint-config-travix/compare/v3.0.1...v4.0.0)
+
+**Merged pull requests:**
+
+- added/changed rules [\#24](https://github.com/Travix-International/eslint-config-travix/pull/24) ([maximuk](https://github.com/maximuk))
+
 ## [v3.0.1](https://github.com/Travix-International/eslint-config-travix/tree/v3.0.1) (2017-10-02)
 [Full Changelog](https://github.com/Travix-International/eslint-config-travix/compare/v3.0.0...v3.0.1)
 
