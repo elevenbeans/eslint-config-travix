@@ -1,5 +1,5 @@
 # eslint-config-travix (v.5)
-New version of [ESLint](https://eslint.org/) configuration for Travix International (v.5)
+New version of [ESLint](https://eslint.org/) configuration for Travix International (v.5).
 
 ## What this config extends
 * `eslint:recommended`
