@@ -1,17 +1,23 @@
 module.exports = {
-  env: {
-    node: true,
-    es6: true
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "jest": true
   },
-  extends: [
-    './base',
-    './react',
-    './promises',
-  ].map(require.resolve),
-  rules: {},
-  settings: {
-    react: {
-      pragma: 'React'
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "defaultParams": true
     }
-  }
+  },
+  "extends": [
+    "eslint:recommended",
+    "airbnb",
+    "plugin:react/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:jsx-a11y/recommended"
+  ]
 };
