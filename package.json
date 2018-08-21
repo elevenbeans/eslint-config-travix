@@ -1,47 +1,39 @@
 {
   "name": "eslint-config-travix",
-  "version": "4.0.0",
-  "description": "ESLint config for Travix",
+  "version": "5.0.0",
+  "description": "ESLint configuration for Travix International",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Travix-International/eslint-config-travix.git"
   },
   "keywords": [
-    "eslintconfig",
-    "lint"
+    "eslint"
   ],
   "author": {
     "name": "Travix International",
     "url": "https://travix.com"
   },
-  "contributors": [
-    {
-      "name": "Fahad Ibnay Heylaal",
-      "url": "https://github.com/fahad19"
-    }
-  ],
-  "dependencies": {
-    "deep-assign": "^2.0.0",
-    "eslint-config-airbnb-base": "^11.3.1"
-  },
-  "devDependencies": {
-    "ava": "^0.22.0",
-    "babel-eslint": "^7.1.0",
-    "eslint": "^4.1.0",
-    "eslint-plugin-babel": "^4.0.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-react": "^7.0.0",
-    "eslint-plugin-promise": "^3.5.0",
-    "is-plain-obj": "^1.1.0",
-    "temp-write": "^3.0.0"
-  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Travix-International/eslint-config-travix/issues"
   },
-  "homepage": "https://github.com/Travix-International/eslint-config-travix#readme"
+  "homepage": "https://github.com/Travix-International/eslint-config-travix#readme",
+  "devDependencies": {
+    "babel-eslint": "8.2.6",
+    "eslint": "5.3.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-react": "7.11.1",
+    "semantic-release": "15.9.8",
+    "simple-commit-message": "4.0.3"
+  },
+  "release": {
+    "analyzeCommits": "simple-commit-message",
+    "noCi": true
+  }
 }
