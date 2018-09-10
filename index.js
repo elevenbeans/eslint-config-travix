@@ -17,7 +17,14 @@ module.exports = {
     'plugin:jsx-a11y/recommended',
   ],
   rules: {
-    'max-len': ['error', { 'code': 120 }],
+    'max-len': ['error', {
+      'code': 120,
+      'ignoreStrings': true,
+      'ignoreTemplateLiterals': true,
+      'ignoreUrls': true,
+      'ignoreTrailingComments': true,
+      'ignoreRegExpLiterals': true
+    }],
     'react/forbid-prop-types': [1, { 'forbid': ['any'] }],
     'react/jsx-sort-props': [1],
     'react/jsx-filename-extension': [1, { 'extensions': ['.js'] }],
