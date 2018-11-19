@@ -24,8 +24,24 @@ module.exports = {
       ignoreTemplateLiterals: true,
       ignoreUrls: true,
       ignoreTrailingComments: true,
-      ignoreRegExpLiterals: true
+      ignoreRegExpLiterals: true,
     }],
+    'prefer-destructuring': ['error', {
+      array: true,
+      object: true,
+    }, {
+      enforceForRenamedProperties: false,
+    }],
+    'import/order': [
+      'error',
+      {
+        groups: [
+          ['builtin', 'external'],
+          ['sibling', 'parent', 'internal', 'index'],
+        ],
+        'newlines-between': 'always',
+      },
+    ],
     'react/destructuring-assignment': ['error', 'always', { ignoreClassFields: true }],
     'react/forbid-prop-types': ['error', { forbid: ['any'] }],
     'react/jsx-sort-props': ['error'],
@@ -38,8 +54,8 @@ module.exports = {
         'instance-variables',
         'lifecycle',
         'everything-else',
-        'render'
-      ]
-    }]
-  }
+        'render',
+      ],
+    }],
+  },
 };
