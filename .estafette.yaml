@@ -36,7 +36,7 @@ stages:
     commands:
       # travix/npm-agent:dubnium-alpine does not come with ssh, and semantic-release
       # has some troubles using the token-authenticated HTTPS remote URLs
-      - apk --no-cache add openssh
+      - apk --no-cache add openssh bash
       - npx semantic-release
     when:
       status == 'succeeded' &&
