@@ -1,3 +1,10 @@
+# [5.7.0](https://github.com/Travix-International/eslint-config-travix/compare/v5.6.1...v5.7.0) (2019-03-01)
+
+
+### Bug Fixes
+
+* Separate Estafette stages and fix linting issues ([#46](https://github.com/Travix-International/eslint-config-travix/issues/46)) ([9921ab1](https://github.com/Travix-International/eslint-config-travix/commit/9921ab1))
+
 ## [5.6.1](https://github.com/Travix-International/eslint-config-travix/compare/v5.6.0...v5.6.1) (2018-11-29)
 
 
