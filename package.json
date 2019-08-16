@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-travix",
-  "version": "5.8.1",
+  "version": "5.9.0",
   "description": "ESLint configuration for Travix International",
   "main": "lib/index.js",
   "engines": {
