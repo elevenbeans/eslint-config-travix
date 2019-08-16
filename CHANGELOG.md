@@ -1,3 +1,10 @@
+## [5.8.1](https://github.com/Travix-International/eslint-config-travix/compare/v5.8.0...v5.8.1) (2019-08-16)
+
+
+### Bug Fixes
+
+* Fix vulnerabilities ([#51](https://github.com/Travix-International/eslint-config-travix/issues/51)) ([2b8f92f](https://github.com/Travix-International/eslint-config-travix/commit/2b8f92f))
+
 # [5.8.0](https://github.com/Travix-International/eslint-config-travix/compare/v5.7.0...v5.8.0) (2019-05-29)
 
 # [5.7.0](https://github.com/Travix-International/eslint-config-travix/compare/v5.6.1...v5.7.0) (2019-03-01)
