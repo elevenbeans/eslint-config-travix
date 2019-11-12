@@ -1,3 +1,10 @@
+## [5.10.1](https://github.com/Travix-International/eslint-config-travix/compare/v5.10.0...v5.10.1) (2019-11-12)
+
+
+### Bug Fixes
+
+* Allow state initialization outside constructor and static public fields inside class body ([#54](https://github.com/Travix-International/eslint-config-travix/issues/54)) ([882b4da](https://github.com/Travix-International/eslint-config-travix/commit/882b4dae8f72f7032bfd0d8e63921e61e9ce1eb6))
+
 # [5.10.0](https://github.com/Travix-International/eslint-config-travix/compare/v5.9.0...v5.10.0) (2019-11-12)
 
 # [5.9.0](https://github.com/Travix-International/eslint-config-travix/compare/v5.8.1...v5.9.0) (2019-08-16)
