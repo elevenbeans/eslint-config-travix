@@ -1,3 +1,5 @@
+# [5.10.0](https://github.com/Travix-International/eslint-config-travix/compare/v5.9.0...v5.10.0) (2019-11-12)
+
 # [5.9.0](https://github.com/Travix-International/eslint-config-travix/compare/v5.8.1...v5.9.0) (2019-08-16)
 
 ## [5.8.1](https://github.com/Travix-International/eslint-config-travix/compare/v5.8.0...v5.8.1) (2019-08-16)
