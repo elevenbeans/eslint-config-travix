@@ -7,15 +7,31 @@ const config: object = {
   },
   extends: [
     'airbnb',
+    'plugin:@typescript-eslint/eslint-recommended',
     'plugin:react/recommended',
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:jsx-a11y/recommended',
   ],
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      rules: {
+        // These are already checked by Typescript
+        'import/no-unresolved': 'off',
+        'no-unused-vars': 'off',
+        'react/prop-types': 'off',
+      }
+    },
+  ],
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 6,
     sourceType: 'module',
   },
+  plugins: [
+    '@typescript-eslint',
+  ],
   rules: {
     'import/order': [
       'error',
