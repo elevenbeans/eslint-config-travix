@@ -24,7 +24,7 @@ const config: object = {
         'no-unused-vars': 'off',
         'no-useless-constructor': 'off',
         'react/prop-types': 'off',
-      }
+      },
     },
   ],
   parser: '@typescript-eslint/parser',
@@ -32,9 +32,7 @@ const config: object = {
     ecmaVersion: 6,
     sourceType: 'module',
   },
-  plugins: [
-    '@typescript-eslint',
-  ],
+  plugins: ['@typescript-eslint'],
   rules: {
     'import/order': [
       'error',
@@ -46,40 +44,58 @@ const config: object = {
         'newlines-between': 'always',
       },
     ],
-    'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
-    'max-len': ['error', {
-      code: 100,
-      ignoreRegExpLiterals: true,
-      ignoreStrings: true,
-      ignoreTemplateLiterals: true,
-      ignoreTrailingComments: true,
-      ignoreUrls: true,
-    }],
+    'lines-between-class-members': [
+      'error',
+      'always',
+      { exceptAfterSingleLine: true },
+    ],
+    'max-len': [
+      'error',
+      {
+        code: 100,
+        ignoreRegExpLiterals: true,
+        ignoreStrings: true,
+        ignoreTemplateLiterals: true,
+        ignoreTrailingComments: true,
+        ignoreUrls: true,
+      },
+    ],
     'max-params': ['error', 3],
-    'prefer-destructuring': ['error', {
-      array: true,
-      object: true,
-    }, {
-      enforceForRenamedProperties: false,
-    }],
+    'prefer-destructuring': [
+      'error',
+      {
+        array: true,
+        object: true,
+      },
+      {
+        enforceForRenamedProperties: false,
+      },
+    ],
     'react-hooks/exhaustive-deps': 'error',
     'react-hooks/rules-of-hooks': 'error',
-    'react/destructuring-assignment': ['error', 'always', { ignoreClassFields: true }],
+    'react/destructuring-assignment': [
+      'error',
+      'always',
+      { ignoreClassFields: true },
+    ],
     'react/forbid-prop-types': ['error', { forbid: ['any'] }],
     'react/jsx-filename-extension': ['error', { extensions: ['.js'] }],
     'react/jsx-one-expression-per-line': 'off',
     'react/jsx-sort-props': ['error'],
-    'react/sort-comp': ['error', {
-      order: [
-        'type-annotations',
-        'static-variables',
-        'static-methods',
-        'instance-variables',
-        'lifecycle',
-        'everything-else',
-        'render',
-      ],
-    }],
+    'react/sort-comp': [
+      'error',
+      {
+        order: [
+          'type-annotations',
+          'static-variables',
+          'static-methods',
+          'instance-variables',
+          'lifecycle',
+          'everything-else',
+          'render',
+        ],
+      },
+    ],
     'react/state-in-constructor': 'off',
     'react/static-property-placement': ['error', 'static public field'],
   },
