@@ -44,6 +44,10 @@ const config: object = {
           ['sibling', 'parent', 'internal', 'index', 'unknown'],
         ],
         'newlines-between': 'always',
+        'alphabetize': {
+          'order': 'asc',
+          'caseInsensitive': false,
+        }
       },
     ],
     'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
