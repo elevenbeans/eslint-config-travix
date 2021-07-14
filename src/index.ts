@@ -39,15 +39,23 @@ const config: object = {
     'import/order': [
       'error',
       {
+        'alphabetize': {
+          'caseInsensitive': false,
+          'order': 'asc',
+        },
         'groups': [
           ['builtin', 'external'],
           ['sibling', 'parent', 'internal', 'index', 'unknown'],
         ],
         'newlines-between': 'always',
-        'alphabetize': {
-          'order': 'asc',
-          'caseInsensitive': false,
-        }
+        'pathGroups': [
+          {
+            'group': 'external',
+            'pattern': 'react',
+            'position': 'before',
+          },
+        ],
+        'pathGroupsExcludedImportTypes': ['builtin'],
       },
     ],
     'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
