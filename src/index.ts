@@ -51,7 +51,7 @@ const config: object = {
         'pathGroups': [
           {
             'group': 'external',
-            'pattern': 'react',
+            'pattern': 'react*',
             'position': 'before',
           },
         ],
