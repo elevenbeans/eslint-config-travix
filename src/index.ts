@@ -40,8 +40,7 @@ const config: object = {
       'error',
       {
         'alphabetize': {
-          'caseInsensitive': false,
-          'order': 'asc',
+          order: 'asc',
         },
         'groups': [
           ['builtin', 'external'],
@@ -50,9 +49,9 @@ const config: object = {
         'newlines-between': 'always',
         'pathGroups': [
           {
-            'group': 'external',
-            'pattern': 'react*',
-            'position': 'before',
+            group: 'external',
+            pattern: 'react*',
+            position: 'before',
           },
         ],
         'pathGroupsExcludedImportTypes': ['builtin'],
