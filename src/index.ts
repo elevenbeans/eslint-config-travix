@@ -54,7 +54,7 @@ const config: object = {
             position: 'before',
           },
         ],
-        'pathGroupsExcludedImportTypes': ['builtin' ],
+        'pathGroupsExcludedImportTypes': ['builtin'],
       },
     ],
     'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
