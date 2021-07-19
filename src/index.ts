@@ -40,7 +40,6 @@ const config: object = {
       'error',
       {
         'alphabetize': {
-          caseInsensitive: false,
           order: 'asc',
         },
         'groups': [
