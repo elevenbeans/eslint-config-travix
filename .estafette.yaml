@@ -44,7 +44,7 @@ stages:
     image: travix/npm-agent:erbium-alpine
     env:
       NPM_TOKEN: estafette.secret(zLzuU8X5xWRB_vm6.K6U64ManpNZ89nc6GGPI7b-fzy2R_Vuhs-veDE47S1ztm_JxJqRGuHznAbtoUat4q_UXhQ==)
-      GH_TOKEN: estafette.secret(qnT0Xj4IaUsYKb4c.wmhSyuv6-kvK0LuvAQAe3NovxitW1ORMBohzfiV5u9ZrCQvOix9FEshNiyiR8htQ070KeLli9Mo=)
+      GH_TOKEN: estafette.secret(zorp40rJxlc5Ak9z.0e2vit1wbxDpFYuYFmNdVOYSTM83oneiVa8GYRIboTnVbTJ3kgmlxCO2dV_dUUndFBz76LAA8og=.0eyrvcBzcELgF_L1Hnp8UutyasUsiTerA5c1eRUg9HP3W297pUXalNPg_-aJIu-oL-XN8yFRbUU1SwWwh9yE0VPbeU0=)
       GIT_AUTHOR_NAME: 'travix-frontend-services'
       GIT_AUTHOR_EMAIL: 'frontend-services@travix.com'
       GIT_COMMITTER_NAME: 'travix-frontend-services'
